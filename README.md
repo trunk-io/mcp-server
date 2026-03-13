@@ -17,12 +17,12 @@ Trunk Flaky Tests comes with a [Model Context Protocol (MCP)](https://modelconte
 
 ### Supported AI Applications
 
-| Application                                                                                          | Supported | Guide                                                                                             |
-| ---------------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------- |
-| [Cursor](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/cursor-ide)                 | Yes       | [Setup guide](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/cursor-ide)         |
-| [Claude Code](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/claude-code-cli)       | Yes       | [Setup guide](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/claude-code-cli)    |
-| [GitHub Copilot](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/github-copilot-ide) | Yes       | [Setup guide](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/github-copilot-ide) |
-| [Gemini CLI](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/gemini-cli)             | Yes       | [Setup guide](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/gemini-cli)         |
+| Application                                                                                          | Supported | Guide                                                                                             | Plugin                                                          |
+| ---------------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [Cursor](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/cursor-ide)                 | Yes       | [Setup guide](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/cursor-ide)         | [Cursor plugin](https://github.com/trunk-io/cursor-plugin)      |
+| [Claude Code](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/claude-code-cli)       | Yes       | [Setup guide](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/claude-code-cli)    | [Claude Code plugin](https://github.com/trunk-io/claude-code-plugin) |
+| [GitHub Copilot](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/github-copilot-ide) | Yes       | [Setup guide](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/github-copilot-ide) |                                                                 |
+| [Gemini CLI](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/gemini-cli)             | Yes       | [Setup guide](https://docs.trunk.io/flaky-tests/use-mcp-server/configuration/gemini-cli)         |                                                                 |
 
 > [!NOTE]
 > Gemini Code Assist and Windsurf are not supported due to their limited support for MCP servers.
