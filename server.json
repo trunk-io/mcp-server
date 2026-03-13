@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.trunk-io/mcp-server",
+  "description": "Trunk Flaky Tests MCP Server — debug flaky tests, query test analytics, and set up CI uploads.",
+  "repository": {
+    "url": "https://github.com/trunk-io/mcp-server",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "0.1.0"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.trunk.io/mcp"
+    }
+  ]
+}
